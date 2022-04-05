@@ -21,11 +21,12 @@ Installation from Source
 
 **Requirements**
 
-For Mac:
+`For Mac:` 
 
 - CMake (>3.9): For example using homebrew ``brew install cmake``
 
-- :download:`Intel MKL libraries <https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=mac&distributions=webdownload&options=online>`
+
+- `Intel MKL libraries <https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=mac&distributions=webdownload&options=online>`_
 
 - OpenMP: For example using homebrew ``brew install libomp`` 
 
@@ -33,11 +34,11 @@ For Mac:
 
 - Fortran Compiler (GNU): For example, using homebrew ``brew install gcc``
 
-For Linux:
+`For Linux:`
 
 - CMake (>3.9)
 
-- :download:`Intel MKL libraries: <https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=linux&distributions=webdownload&options=online>`
+- `Intel MKL libraries <https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=linux&distributions=webdownload&options=online>`_ 
 
 - OpenMP 
 
@@ -46,9 +47,9 @@ For Linux:
 
 **Compile & Install**
 
-Step 0: Git clone the repository.
+`Step 0:` Git clone the repository.
 
-Step 1: After installing Intel MKL, the evironment variable MKLROOT must be set via the command:
+`Step 1:` After installing Intel MKL, the evironment variable MKLROOT must be set via the command:
 
 .. code-block:: console
 
@@ -56,10 +57,10 @@ Step 1: After installing Intel MKL, the evironment variable MKLROOT must be set 
 	source /opt/intel/oneapi/mkl/latest/env/vars.sh  intel64
 
 
-Step 2: Compile CHOLMOD and related libraries from SuiteSparse (version 4.5.4 is provided) by the script:
+`Step 2:` Compile CHOLMOD and related libraries from SuiteSparse (version 4.5.4 is provided) by the script:
 	
 .. code-block:: console
-	
+
 	sh make_cholmod.sh 
 
 
@@ -67,7 +68,7 @@ Step 2: Compile CHOLMOD and related libraries from SuiteSparse (version 4.5.4 is
 
 	This script will copy the relevant files in the ``/extern/`` folder.
 
-Step 3: Create the build directory and compile the project using cmake with the following commands:  
+`Step 3:` Create the build directory and compile the project using cmake with the following commands:  
 
 .. code-block:: console
 
@@ -76,7 +77,7 @@ Step 3: Create the build directory and compile the project using cmake with the 
 	cmake ..
 	make -j12
 
-Step 4: Install the libSQUIC library in the default location (i.e., ``~/``) using the command:
+`Step 4:` Install the libSQUIC library in the default location (i.e., ``~/``) using the command:
 
 
 .. code-block:: console

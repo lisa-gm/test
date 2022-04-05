@@ -6,12 +6,6 @@
 Welcome to the SQUIC documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-
 **SQUIC** is a second-order, L1-regularized maximum likelihood method for performant large-scale sparse precision matrix estimation. The presented source code is the SQUIC shared library (libSQUIC) intended for Linux and Mac OS.
 
 The following interface packages for SQUIC can be found here: `https://www.gitlab.ci.inf.usi.ch/SQUIC <https://www.gitlab.ci.inf.usi.ch/SQUIC>`_ 
@@ -32,6 +26,5 @@ Contents
    installation
    documentation
    examples
-   usage
-   api
+   other
    additional_information

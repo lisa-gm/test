@@ -1,5 +1,5 @@
-Usage
-=====
+Other Stuff
+===========
 
 .. _installation:
 

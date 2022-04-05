@@ -1,4 +1,9 @@
-Welcome to Lumache's documentation!
+.. SQUIC_Doc documentation master file, created by
+   sphinx-quickstart on Tue Apr  5 11:00:46 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to the SQUIC documentation!
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
@@ -6,17 +11,27 @@ that creates recipes mixing random ingredients.
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
-Check out the :doc:`usage` section for further information, including
+
+**SQUIC** is a second-order, L1-regularized maximum likelihood method for performant large-scale sparse precision matrix estimation. The presented source code is the SQUIC shared library (libSQUIC) intended for Linux and Mac OS.
+
+The following interface packages for SQUIC can be found here: `https://www.gitlab.ci.inf.usi.ch/SQUIC <https://www.gitlab.ci.inf.usi.ch/SQUIC>`_ 
+
+Check out the :doc:`documentation` section for further information, as well as
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   For all note interface packages, libSQUIC is required. Precompiled versions of libSQUIC for Mac and Linux are available and are ready to use.
+
 
 Contents
 --------
 
 .. toctree::
 
+   installation
+   documentation
+   examples
    usage
    api
+   additional_information

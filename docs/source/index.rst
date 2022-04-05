@@ -8,10 +8,9 @@ Welcome to the SQUIC documentation!
 
 **SQUIC** is a second-order, L1-regularized maximum likelihood method for performant large-scale sparse precision matrix estimation. The presented source code is the SQUIC shared library (libSQUIC) intended for Linux and Mac OS.
 
-The following interface packages for SQUIC can be found here: `https://www.gitlab.ci.inf.usi.ch/SQUIC <https://www.gitlab.ci.inf.usi.ch/SQUIC>`_ 
+The different packages for SQUIC can be found `here <https://www.gitlab.ci.inf.usi.ch/SQUIC>`_.
 
-Check out the :doc:`documentation` section for further information, as well as
-how to :ref:`installation` the project.
+Check out the :doc:`documentation` for further information, as well as the :ref:`installation` of the project.
 
 .. note::
 
